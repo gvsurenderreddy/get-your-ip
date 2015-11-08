@@ -1,0 +1,24 @@
+{
+  "name": "get-your-ip",
+  "version": "1.0.0",
+  "description": "A node tool that will get you know your public ip address",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+	"ci": "mocha test.js"
+  },
+  "keywords": [
+    "ip",
+    "my ip",
+    "website"
+  ],
+  "author": {
+    "name": "Vikram Jadhav",
+    "email": "vikramcse.10@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  }
+}
